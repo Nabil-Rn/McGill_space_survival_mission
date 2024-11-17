@@ -245,8 +245,10 @@ def handle_item_selection(event):
 #     # Additional code to transition to the new screen (visuals, etc.)
 
 def equipment_screen(map_name):
+    pygame.init()  # Ensure Pygame is initialized
     clock = pygame.time.Clock()
     running = True
+
 
     while running:
         screen.fill((0, 0, 0))  # Clear the screen

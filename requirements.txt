@@ -1,0 +1,15 @@
+# requirements.txt
+
+contourpy
+cycler
+fonttools
+kiwisolver
+matplotlib
+numpy
+packaging
+pillow
+pygame
+pygbag
+pyparsing
+python-dateutil
+six
